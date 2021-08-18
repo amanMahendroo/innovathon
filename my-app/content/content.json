@@ -1,0 +1,235 @@
+{
+    "About": {
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+    },
+    "Themes": [
+        {
+            "key": "t-1",
+            "title": "Full-stack Development",
+            "img_url": "",
+            "img_alt": "",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+        },
+        {
+            "key": "t-2",
+            "title": "Entrepreneurship",
+            "img_url": "",
+            "img_alt": "",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+        },
+        {
+            "key": "t-3",
+            "title": "Machine Learning",
+            "img_url": "",
+            "img_alt": "",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+        },
+        {
+            "key": "t-4",
+            "title": "Hardware/Robotics",
+            "img_url": "",
+            "img_alt": "",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+        }
+    ],
+    "Timeline": [
+        {
+            "title": "Registration",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Problem statements released",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Round 1 Presentation",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Round 1 Results",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Round 2 Presentation",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Round 2 Results",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Felicitation",
+            "content": "Sample filler text",
+            "datetime": ""
+        }
+    ],
+    "People": [
+        {
+            "name": "Organizers",
+            "list": [
+                {
+                    "name": "Dr. Shailender Kumar",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Dr. Girish Kumar",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Dr. Ravindra Singh",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                }
+            ]
+        },
+        {
+            "name": "Coordinators",
+            "list": [
+                {
+                    "name": "Aman Mahendroo",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Aaradhya Beri",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Anurag Hooda",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Pranav Bhatnagar",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                }
+            ]
+        },
+        {
+            "name": "Volunteers",
+            "list": [
+                {
+                    "name": "Aditya Sharan",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Prashubh Atri",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Nilesh Aditya",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Pratyush Bhatt",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Sampreet Bharali",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                },
+                {
+                    "name": "Samar Pratap Singh Shekhawat",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": "",
+                    "social_type": ""
+                }
+            ]
+        }
+    ],
+    "FAQ": [
+        {
+            "key": "q-1",
+            "question": "The quick brown fox jumped over the lazy dog.",
+            "answer": "The quick brown fox jumped over the lazy dog."
+        },
+        {
+            "key": "q-2",
+            "question": "The quick brown fox jumped over the lazy dog.",
+            "answer": "The quick brown fox jumped over the lazy dog."
+        },
+        {
+            "key": "q-3",
+            "question": "The quick brown fox jumped over the lazy dog.",
+            "answer": "The quick brown fox jumped over the lazy dog."
+        },
+        {
+            "key": "q-4",
+            "question": "The quick brown fox jumped over the lazy dog.",
+            "answer": "The quick brown fox jumped over the lazy dog."
+        },
+        {
+            "key": "q-5",
+            "question": "The quick brown fox jumped over the lazy dog.",
+            "answer": "The quick brown fox jumped over the lazy dog."
+        },
+        {
+            "key": "q-6",
+            "question": "The quick brown fox jumped over the lazy dog.",
+            "answer": "The quick brown fox jumped over the lazy dog."
+        },
+        {
+            "key": "q-7",
+            "question": "The quick brown fox jumped over the lazy dog.",
+            "answer": "The quick brown fox jumped over the lazy dog."
+        },
+        {
+            "key": "q-8",
+            "question": "The quick brown fox jumped over the lazy dog.",
+            "answer": "The quick brown fox jumped over the lazy dog."
+        }
+    ]
+}
