@@ -1,0 +1,257 @@
+{
+    "Facebook": "https://www.facebook.com/Innovathon-DTU-110594991363621",
+    "Discord": "https://discord.gg/nHjyb5fmqw",
+    "Instagram": "https://www.instagram.com/innovathon.dtu/",
+    "About": {
+        "text": "Innovathon’21 is DTU’s first official Hackathon spanning multiple engineering domains. The hackathon aims to invoke free thinking, innovation, and teamwork as participants rack their brains to come up with novel ideas and impactful solutions to showcase their innovation and engineering skills. Innovate, think, learn, implement while tackling some real-life problems. The 2021 edition of Innovathon will be conducted in online mode. Participate and win exciting prizes!"
+    },
+    "Themes": [
+        {
+            "key": "t-1",
+            "title": "Full-stack Development",
+            "img_url": "",
+            "img_alt": "full-stack",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+        },
+        {
+            "key": "t-2",
+            "title": "Entrepreneurship",
+            "img_url": "",
+            "img_alt": "entrepreneurship",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+        },
+        {
+            "key": "t-3",
+            "title": "Machine Learning",
+            "img_url": "",
+            "img_alt": "machine-learning",
+            "text": "One of the hottest fields in innovation today is Machine Learning. At Innovathon DTU, we present to you a wonderful opportunity to put your machine learning skills to the test, through a set of well-crafted problems, which demand extreme innovation and implementation skills. Are you up to the challenge?"
+        },
+        {
+            "key": "t-4",
+            "title": "Hardware/Robotics",
+            "img_url": "",
+            "img_alt": "hardware-robotics",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+        }
+    ],
+    "Timeline": [
+        {
+            "title": "Registration",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Problem statements released",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Round 1 Presentation",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Round 1 Results",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Round 2 Presentation",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Round 2 Results",
+            "content": "Sample filler text",
+            "datetime": "1500hrs IST, 1st October 2021"
+        },
+        {
+            "title": "Felicitation",
+            "content": "Sample filler text",
+            "datetime": ""
+        }
+    ],
+    "People": [
+        {
+            "name": "Organizers",
+            "list": [
+                {
+                    "name": "Dr. Shailender Kumar",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Dr. Girish Kumar",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Dr. Ravindra Singh",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                }
+            ]
+        },
+        {
+            "name": "Coordinators",
+            "list": [
+                {
+                    "name": "Aman Mahendroo",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Aaradhya Beri",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Anurag Hooda",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Pranav Bhatnagar",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                }
+            ]
+        },
+        {
+            "name": "Volunteers",
+            "list": [
+                {
+                    "name": "Aditya Sharan",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Prashubh Atri",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Nilesh Aditya",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Pratyush Bhatt",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Sampreet Bharali",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Samar Pratap Singh Shekhawat",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                },
+                {
+                    "name": "Sai Keshari",
+                    "img_url": "",
+                    "img_alt": "",
+                    "sub": "Sample filler text",
+                    "social_url": ""
+                }
+            ]
+        }
+    ],
+    "FAQ": [
+        {
+            "key": "q-1",
+            "question": "What is the registration fee for Hackathon?",
+            "answer": "There is no registration fee for DTU Innovathon’21."
+        },
+        {
+            "key": "q-2",
+            "question": "How to register for the event?",
+            "answer": "Registration for DTU Innovathon’21 can be done at DevFolio."
+        },
+        {
+            "key": "q-3",
+            "question": "How will the Hackathon be conducted?",
+            "answer": "The hackathon will take place in online mode."
+        },
+        {
+            "key": "q-4",
+            "question": "What are the formats for submission?",
+            "answer": "The submission format will be uploaded on this website as well as on Devfolio as soon as Round 1 begins."
+        },
+        {
+            "key": "q-5",
+            "question": "Will multiple submissions be allowed in one round?",
+            "answer": "Multiple submissions are not allowed by the same team for the same round. Teams should make one submission per round which would be considered final."
+        },
+        {
+            "key": "q-6",
+            "question": "When and where will I receive the problem statement?",
+            "answer": "Problem statement will be mailed to all participants on 3rd October 2021 00:00 HRS IST. They will also be made available on the official DTU Innovathon’21 website."
+        },
+        {
+            "key": "q-7",
+            "question": "Who can participate in the event?",
+            "answer": "Participation for this edition is confined to DTU students who are currently enrolled in a UG/PG course within DTU."
+        },
+        {
+            "key": "q-8",
+            "question": "How many people are allowed in a team?",
+            "answer": "There can be a minimum of 1 and a maximum of 4 members in each team."
+        }, 
+        {
+            "key": "q-9",
+            "question": "How long is the Hackathon?",
+            "answer": "Round 1 lasts for 48 hours. Participants who qualify for round 2 will be up for a 120 hour long hackathon."
+        },
+        {
+            "key": "q-10",
+            "question": "Will a theme and problem statement be assigned to participants?",
+            "answer": "Participants are free to choose any problem statement from any theme. "
+        },
+        {
+            "key": "q-11",
+            "question": "What technologies you must/must not use for Hackathon?",
+            "answer": "There are no restrictions on the use of technologies."
+        },
+        {
+            "key": "q-12",
+            "question": "Can you choose more than one theme?",
+            "answer": "No, participants should choose only one theme."
+        },
+        {
+            "key": "q-13",
+            "question": "Can I switch themes between rounds?",
+            "answer": "Participants have to stick with the same theme for both of the rounds ."
+        }
+    ]
+}

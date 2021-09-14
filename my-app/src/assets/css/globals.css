@@ -1,0 +1,27 @@
+:root {
+    --orange: #fa6b38;
+    --white: #ffffff;
+    --black: #333333;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.section {
+    width: 100vw;
+}
+
+@import url("./about.css");
+@import url("./nav.css");
+@import url("./main.css");
+@import url("./org.css");
+@import url("./faq.css");
+@import url("./themes.css");
+@import url("./timeline.css");
+@import url("./end.css");
