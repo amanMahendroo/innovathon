@@ -1,0 +1,64 @@
+.about{
+    text-align: center;
+    background: rgb(254, 237, 227, 0.8);
+    width: 92%;
+    margin: auto;
+    border-radius: 0.4em;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2em;
+}
+
+.aboutHeading{
+    color: rgba(254, 103, 57, 1);
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.aboutText{
+    width: 90%;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.aboutCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+}
+
+.aboutCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ff5100;
+    font-weight: 500;
+    transition: all .3s ease;
+    padding: 1.2rem;
+    margin: 0.3rem;
+    font-size: 1.2rem;
+    background:rgba(255,255,255,1);
+    border-radius: 0.5em;
+}
+
+.aboutCardSvg1 {
+    width: 4em;
+}
+
+.aboutCardSvg2 {
+    width: 2.5em;
+}
+
+/* .aboutCardSvg{
+    font-size: 3rem;
+    padding: 0.5rem;
+} */
+
+.aboutCard:hover {
+    box-shadow: 0 15px 30px 0 rgb(214 93 32 / 25%);
+}

@@ -20,9 +20,9 @@ class Box {
         p5.push()
         p5.translate(this.x, this.y + 50 * Math.sin(p5.frameCount / 120 + this.offset))
         p5.rotate(this.r)
-        p5.stroke(51, 51, 51, 100)
+        p5.stroke(51, 51, 51, 50)
         p5.rect(-2.5, -2.5, this.s - 5)
-        p5.stroke(51, 51, 51)
+        p5.stroke(51, 51, 51, 100)
         p5.rect(0, 0, this.s)
         p5.pop()
     }
@@ -48,7 +48,7 @@ export default function Canvas() {
         p5.background(255)
         p5.strokeWeight(5)
         p5.noFill()
-        console.log(boxes)
+        // console.log(boxes)
         for (const box of boxes) {
             box.render(p5)
         }

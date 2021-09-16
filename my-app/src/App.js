@@ -12,8 +12,8 @@ import "./assets/css/globals.css"
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Canvas />
+      <Nav />
       <Main />
       <About /> 
       <Themes />
