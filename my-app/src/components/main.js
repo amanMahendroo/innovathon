@@ -1,24 +1,24 @@
 import { useState, useEffect } from "react"
 import '../assets/css/main.css'
-import {Button} from '@material-ui/core'
+// import {Button} from '@material-ui/core'
 import Logo from "../assets/logo_1x.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faUserFriends} from '@fortawesome/free-solid-svg-icons'
 import {faDiscord} from '@fortawesome/free-brands-svg-icons'
 
 export default function Main() {
-    function format(a) {
-        let res = ""
-        res += a.days + ":"
-        let h = "" + a.hours
-        while (h.length < 2) h = "0" + h;
-        let m = "" + a.minutes
-        while (m.length < 2) m = "0" + m;
-        let s = "" + a.seconds
-        while (s.length < 2) s = "0" + s;
-        res += h + ":" + m + ":" + s
-        return res
-    }
+    // function format(a) {
+    //     let res = ""
+    //     res += a.days + ":"
+    //     let h = "" + a.hours
+    //     while (h.length < 2) h = "0" + h;
+    //     let m = "" + a.minutes
+    //     while (m.length < 2) m = "0" + m;
+    //     let s = "" + a.seconds
+    //     while (s.length < 2) s = "0" + s;
+    //     res += h + ":" + m + ":" + s
+    //     return res
+    // }
 
     function getTimeFromMs(t) {
         t = Math.floor(t / 1000)
@@ -58,7 +58,7 @@ export default function Main() {
                     <h1 style={{
                         marginTop:'1rem'
                     }}>2K21</h1> */}
-                    <img src={Logo}  class="logo"/>
+                    <img src={Logo} alt="logo" class="logo"/>
                 </div>
                 <div className="timer">
                     <h1>

@@ -35,13 +35,32 @@ let pos = [
     [0.9209, 0.5399],[0.7704, 0.6955],[0.2781, 0.1393],[0.3713, 0.6901],
     [0.4854, 0.1353],[0.8933, 0.8146],[0.9885, 0.0500],]
 
+let m_pos = [
+    [0.1429, 0.1244],[0.7959, 0.1757],[0.2449, 0.3935],[0.4337, 0.2566],
+    [0.8495, 0.5708],[0.7398, 0.3624],[0.1939, 0.8087],[0.727, 0.8305],
+    [0.398, 0.6252],]
+
+let par;
+
 export default function Canvas() {
     function setup(p5, parentRef) {
+        if (parentRef == undefined) {
+            parentRef = par
+        } else {
+            par = parentRef
+        }
         p5.createCanvas(window.innerWidth, window.innerHeight).parent(parentRef)
-        for (let i = 0; i < 15; i++) {
-            boxes.push(new Box(pos[i][0] * p5.width, pos[i][1] * p5.height))
+        if (p5.width < p5.height) {
+            for (let i = 0; i < m_pos.length; i++) {
+                boxes.push(new Box(m_pos[i][0] * p5.width, m_pos[i][1] * p5.height))
+            }    
+        } else {
+            for (let i = 0; i < pos.length; i++) {
+                boxes.push(new Box(pos[i][0] * p5.width, pos[i][1] * p5.height))
+            }    
         }
         p5.rectMode(p5.CENTER)
+        // console.log(boxes)
     }
 
     function draw(p5) {
@@ -75,7 +94,13 @@ export default function Canvas() {
         prevY = p5.mouseY      
     }
 
+    function windowResized(p5) {
+        p5.noCanvas()
+        boxes = []
+        setup(p5)
+    }
+
     return (
-        <Sketch className="canvas" setup={setup} draw={draw} mouseMoved={mouseMoved} />
+        <Sketch className="canvas" setup={setup} draw={draw} mouseMoved={mouseMoved} windowResized={windowResized} />
     )
 }
