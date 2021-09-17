@@ -1,4 +1,4 @@
-import Content from '../assets/content.json'
+// import Content from '../assets/content.json'
 import '../assets/css/timeline.css'
 
 export default function Timeline() {
