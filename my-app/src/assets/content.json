@@ -39,37 +39,44 @@
         {
             "title": "Registration",
             "content": "Sample filler text",
-            "datetime": "1500hrs IST, 1st October 2021"
+            "date": "1st October 2021",
+            "time": "1500hrs IST"
         },
         {
             "title": "Problem statements released",
             "content": "Sample filler text",
-            "datetime": "1500hrs IST, 1st October 2021"
+            "date": "1st October 2021",
+            "time": "1500hrs IST"
         },
         {
             "title": "Round 1 Presentation",
             "content": "Sample filler text",
-            "datetime": "1500hrs IST, 1st October 2021"
+            "date": "1st October 2021",
+            "time": "1500hrs IST"
         },
         {
             "title": "Round 1 Results",
             "content": "Sample filler text",
-            "datetime": "1500hrs IST, 1st October 2021"
+            "date": "1st October 2021",
+            "time": "1500hrs IST"
         },
         {
             "title": "Round 2 Presentation",
             "content": "Sample filler text",
-            "datetime": "1500hrs IST, 1st October 2021"
+            "date": "1st October 2021",
+            "time": "1500hrs IST"
         },
         {
             "title": "Round 2 Results",
             "content": "Sample filler text",
-            "datetime": "1500hrs IST, 1st October 2021"
+            "date": "1st October 2021",
+            "time": "1500hrs IST"
         },
         {
             "title": "Felicitation",
             "content": "Sample filler text",
-            "datetime": ""
+            "date": "1st October 2021",
+            "time": "1500hrs IST"
         }
     ],
     "People": [
@@ -171,7 +178,7 @@
                     "social_url": ""
                 },
                 {
-                    "name": "Samar Pratap Singh Shekhawat",
+                    "name": "Samar Pratap Singh",
                     "img_url": "",
                     "img_alt": "",
                     "sub": "Sample filler text",

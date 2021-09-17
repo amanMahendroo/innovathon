@@ -11,9 +11,11 @@ import {
   } from "@material-ui/core";
 import zIndex from "@material-ui/core/styles/zIndex";
 import logo from "../assets/logo_1x.png"
-  import MenuIcon from "@material-ui/icons/Menu";
-  import React, { useState, useEffect } from "react";
-  import '../assets/css/nav.css'
+import MenuIcon from "@material-ui/icons/Menu";
+import React, { useState, useEffect } from "react";
+import '../assets/css/nav.css'
+import { SocialIcon } from 'react-social-icons'
+import Content from "../assets/content.json"
 //   import { Link as RouterLink } from "react-router-dom";
   
   const headersData = [
@@ -102,7 +104,9 @@ import logo from "../assets/logo_1x.png"
       return (
         <Toolbar className={toolbar}>
           {innovathonLogo}
-          <div>{getMenuButtons()}</div>
+          <div style={{
+            display:'flex'
+          }}>{getMenuButtons()}</div>
         </Toolbar>
       );
     };
@@ -145,11 +149,17 @@ import logo from "../assets/logo_1x.png"
     };
   
     const getDrawerChoices = () => {
-      return headersData.map(({ label, href }) => {
-        return (
-            <MenuItem>{label}</MenuItem>
-        );
-      });
+      <>
+                <div className="icon">
+                    <SocialIcon url={Content.Facebook} />
+                </div>
+                <div className="icon">
+                    <SocialIcon url={Content.Discord} />
+                </div>
+                <div className="icon">
+                    <SocialIcon url={Content.Instagram} />
+                </div>
+              </>
     };
   
     const innovathonLogo = (
@@ -157,13 +167,19 @@ import logo from "../assets/logo_1x.png"
     );
   
     const getMenuButtons = () => {
-      return headersData.map(({ label, href }) => {
-        return (
-          <Button>
-            {label}
-          </Button>
-        );
-      });
+      return (
+        <>
+                <div className="icon">
+                    <SocialIcon url={Content.Facebook} />
+                </div>
+                <div className="icon">
+                    <SocialIcon url={Content.Discord} />
+                </div>
+                <div className="icon">
+                    <SocialIcon url={Content.Instagram} />
+                </div>
+            </>
+      )
     };
   
     return (
