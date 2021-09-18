@@ -45,7 +45,7 @@ export default function Org() {
         //         </div>
         //     ))}
         // </div>
-        <div class="timelineSection">
+        <div class="orgSection">
             <h1 class="orgHeading">TEAM</h1>
             <div>
                 {Content.People.map(sub => (
@@ -55,7 +55,24 @@ export default function Org() {
                         }}>{sub.name}</h2>
                         <div class="orgCards">
                             {sub.list.map(person => (
-                                <div className="person-info">
+                                sub.name === "Organizers" ? <div className="person-info">
+                                <div className="person-img">
+                                    {person.img_url === "" ? <img src={defaultImg} alt={person.name} /> : <img src={person.img_url} alt={person.name} />}
+                                    {/* <div className={classes.root}>
+                                        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" className={classes.large} />
+                                    </div> */}
+                                </div>
+                                <div class="person-more-info-org">
+                                    <div style={{
+                                        // flexBasis:'80%',
+                                        padding: "1em",
+                                    }}>
+                                        <div className="person-name">{person.name}</div>
+                                        <div className="person-sub">{person.sub}</div>
+                                    </div>
+                                </div>
+                                {/* Add social url and icon using react-icons */}
+                            </div> : <div className="person-info">
                                     <div className="person-img">
                                         {person.img_url === "" ? <img src={defaultImg} alt={person.name} /> : <img src={person.img_url} alt={person.name} />}
                                         {/* <div className={classes.root}>
@@ -81,6 +98,10 @@ export default function Org() {
                     </div>
                 ))}
             </div>
+            <h2 style={{
+                marginBottom:'1em',
+                marginTop:'2em'
+            }}>Contact us at : <a target="_blank" href="mailto:innovathon.dtu@gmail.com">innovathon.dtu@gmail.com</a></h2>
         </div>
 
     )

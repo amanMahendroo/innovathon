@@ -9,3 +9,13 @@
     padding-bottom: 2rem;
     margin-bottom: 2em;
 }
+
+/* @media only screen and (max-width: 768px) {
+    .timeOppCon{
+        padding-left: 0;
+        min-width: 90px;
+    }
+    .timeCon{
+        min-width: 165px;
+    }
+  } */

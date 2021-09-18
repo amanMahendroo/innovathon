@@ -19,8 +19,24 @@
     margin: 10px;
 } */
 
+@media only screen and (max-width: 768px) {
+
+    .navSocialIcons{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .logoImg{
+        width: 30% !important;
+    }
+
+    .icon{
+        margin: auto 0.2em !important;
+    }
+}
+
 .logoImg{
-    width: 14vw;
+    width: 18%;
 }
 
 .icon{

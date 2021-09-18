@@ -1,6 +1,8 @@
-import '../assets/css/end.css'
+import '../assets/css/end.css';
 
 export default function End() {
+
+
     return (
         <div className="section end">
             <h2>

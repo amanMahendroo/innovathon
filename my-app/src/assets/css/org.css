@@ -12,6 +12,19 @@
     margin-top: 0;
 }
 
+.orgSection{
+    text-align: center;
+    background: rgb(255, 221, 201, 1);
+    width: 92%;
+    margin: auto;
+    border-radius: 0.4em;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+
 .person-info{
     /* border: 5px solid red; */
     background: white;
@@ -26,6 +39,17 @@
     overflow: hidden;
 }
 
+/* @media only screen and (max-width: 500px)
+{
+    .person-img, .person-img img{
+        width: 300px;
+        min-height: 250px;
+        max-height: 250px; 
+        object-fit: cover;
+    }
+    
+} */
+
 .person-img, .person-img img{
     width: 220px;
     min-height: 250px;
@@ -36,6 +60,11 @@
 .person-more-info{
     display: flex;
     justify-content: space-between;
+    
+}
+.person-more-info-org{
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -58,4 +87,5 @@
 
 .person-name {
     font-weight: bold;
+    text-align: center;
 }

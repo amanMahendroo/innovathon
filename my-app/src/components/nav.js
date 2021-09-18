@@ -170,13 +170,13 @@ export default function Header() {
     return (
       <>
               <div className="icon">
-                  <SocialIcon url={Content.Facebook} />
+                  <SocialIcon className="navSocialIcons" target="_blank" url={Content.Facebook} />
               </div>
               <div className="icon">
-                  <SocialIcon url={Content.Discord} />
+                  <SocialIcon className="navSocialIcons" target="_blank" url={Content.Discord} />
               </div>
               <div className="icon">
-                  <SocialIcon url={Content.Instagram} />
+                  <SocialIcon className="navSocialIcons" target="_blank" url={Content.Instagram} />
               </div>
           </>
     )
@@ -184,7 +184,7 @@ export default function Header() {
 
   return (
       <AppBar className={header}>
-        {mobileView ? displayMobile() : displayDesktop()}
+        {mobileView ? displayDesktop() : displayDesktop()}
       </AppBar>
   );
 }

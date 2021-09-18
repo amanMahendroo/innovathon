@@ -19,6 +19,8 @@ import PeopleIcon from '@material-ui/icons/People';
 import ReceiptIcon from '@material-ui/icons/Receipt';
 import PresentToAllIcon from '@material-ui/icons/PresentToAll';
 import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
@@ -26,15 +28,25 @@ const useStyles = makeStyles((theme) => ({
       boxShadow: ' 0 15px 30px 0 rgb(214 93 32 / 25%)',
       textAlign:'center'
     },
-    secondaryTail: {
-      backgroundColor: theme.palette.secondary.main,
+    TimelineOppositeContent: {
+        [theme.breakpoints.down('md')]: {
+            paddingLeft:'0',
+            minWidth:'90px'
+          },
     },
+    TimelineContent: {
+        [theme.breakpoints.down('md')]: {
+            minWidth:'165px'
+          },
+    }
   }));
 
 export default function Schedule() {
 
     const classes = useStyles();
+    const theme = useTheme();
 
+    const matches = useMediaQuery(theme.breakpoints.up('md'));
 
     return (
         // <div className="timeline section">
@@ -58,21 +70,21 @@ export default function Schedule() {
         // </div>
         <div class="timelineSection">
             <h1 class="aboutHeading">Timeline</h1>
-            <Timeline align="alternate">
+            <Timeline align={matches?"alternate":"left"}>
                 <TimelineItem>
-                    <TimelineOppositeContent>
+                    <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
                         {Content.Timeline[0].date} <br/>
                         {Content.Timeline[0].time} <br/>
                     </Typography>
-                    </TimelineOppositeContent>
+                    </TimelineOppositeContent >
                     <TimelineSeparator>
                     <TimelineDot color="primary">
                         <PeopleIcon />
                     </TimelineDot>
-                    <TimelineConnector />
+                    <TimelineConnector/>
                     </TimelineSeparator>
-                    <TimelineContent>
+                    <TimelineContent className={classes.TimelineContent}>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                         {Content.Timeline[0].title}
@@ -82,7 +94,7 @@ export default function Schedule() {
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
-                <TimelineOppositeContent>
+                <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
                         {Content.Timeline[1].date} <br/>
                         {Content.Timeline[1].time} <br/>
@@ -94,7 +106,7 @@ export default function Schedule() {
                     </TimelineDot>
                     <TimelineConnector />
                     </TimelineSeparator>
-                    <TimelineContent>
+                    <TimelineContent className={classes.TimelineContent}>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                         {Content.Timeline[1].title}
@@ -104,7 +116,7 @@ export default function Schedule() {
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
-                <TimelineOppositeContent>
+                <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
                         {Content.Timeline[2].date} <br/>
                         {Content.Timeline[2].time} <br/>
@@ -116,7 +128,7 @@ export default function Schedule() {
                     </TimelineDot>
                     <TimelineConnector />
                     </TimelineSeparator>
-                    <TimelineContent>
+                    <TimelineContent className={classes.TimelineContent}>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                         {Content.Timeline[2].title}
@@ -126,7 +138,7 @@ export default function Schedule() {
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
-                <TimelineOppositeContent>
+                <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
                         {Content.Timeline[3].date} <br/>
                         {Content.Timeline[3].time} <br/>
@@ -138,7 +150,7 @@ export default function Schedule() {
                     </TimelineDot>
                     <TimelineConnector />
                     </TimelineSeparator>
-                    <TimelineContent>
+                    <TimelineContent className={classes.TimelineContent}>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                         {Content.Timeline[3].title}
@@ -148,7 +160,7 @@ export default function Schedule() {
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
-                <TimelineOppositeContent>
+                <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
                         {Content.Timeline[4].date} <br/>
                         {Content.Timeline[4].time} <br/>
@@ -158,9 +170,9 @@ export default function Schedule() {
                     <TimelineDot color="primary" variant="outlined">
                         <PresentToAllIcon />
                     </TimelineDot>
-                    <TimelineConnector className={classes.secondaryTail} />
+                    <TimelineConnector />
                     </TimelineSeparator>
-                    <TimelineContent>
+                    <TimelineContent className={classes.TimelineContent}>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                         {Content.Timeline[4].title}
@@ -170,7 +182,7 @@ export default function Schedule() {
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
-                <TimelineOppositeContent>
+                <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
                         {Content.Timeline[5].date} <br/>
                         {Content.Timeline[5].time} <br/>
@@ -180,8 +192,9 @@ export default function Schedule() {
                     <TimelineDot color="secondary">
                         <LaptopMacIcon />
                     </TimelineDot>
+                    <TimelineConnector />
                     </TimelineSeparator>
-                    <TimelineContent>
+                    <TimelineContent className={classes.TimelineContent}>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                         {Content.Timeline[5].title}
@@ -191,7 +204,7 @@ export default function Schedule() {
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
-                <TimelineOppositeContent>
+                <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
                         {Content.Timeline[6].date} <br/>
                         {Content.Timeline[6].time} <br/>
@@ -202,7 +215,7 @@ export default function Schedule() {
                         <CardGiftcardIcon />
                     </TimelineDot>
                     </TimelineSeparator>
-                    <TimelineContent>
+                    <TimelineContent className={classes.TimelineContent}>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
                         {Content.Timeline[6].title}
