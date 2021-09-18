@@ -11,14 +11,14 @@
             "title": "Full-stack Development",
             "img_url": "",
             "img_alt": "full-stack",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+            "text": "Test your expertise in creating user-friendly interfaces and coming up with intriguing solutions for challenging real life problems. Innovathon’21 will provide you hands-on experience to explore your potential in the field of Full stack development. Now is the chance to build an effective solution using all possible languages and frameworks with added business logic and user mindset."
         },
         {
             "key": "t-2",
             "title": "Entrepreneurship",
             "img_url": "",
             "img_alt": "entrepreneurship",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+            "text": "An entrepreneur is a person who has the possession of a new enterprise, venture or idea and is accountable for the inherent risks and the outcome. Entrepreneur is a term applied to a person who is willing to launch a new venture or enterprise and accept full responsibility for the outcome. Entrepreneurs are at the forefront of today’s techno-startup revolution. Are you ready to unleash the Entrepreneur within you and bring the change you want to see in the world?"
         },
         {
             "key": "t-3",
@@ -29,53 +29,53 @@
         },
         {
             "key": "t-4",
-            "title": "Hardware or Robotics",
+            "title": "Hardware / Robotics",
             "img_url": "",
             "img_alt": "hardware-robotics",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facilis voluptatum magnam eum sunt ipsa provident nulla nihil sapiente, consectetur quisquam aut, dolores blanditiis corporis iste quam sint! Debitis, dolores."
+            "text": "Get ready to put your hardware programming skills to test!  The hardware challenge is all about building viable, ready to deploy solutions to real life problems ranging from everyday automation to medical and intelligent security systems."
         }
     ],
     "Timeline": [
         {
             "title": "Registration",
             "content": "Sample filler text",
-            "date": "1st October 2021",
-            "time": "1500hrs IST"
+            "date": "22nd September 2021",
+            "time": "0000hrs IST"
         },
         {
             "title": "Problem statements released",
             "content": "Sample filler text",
-            "date": "1st October 2021",
-            "time": "1500hrs IST"
+            "date": "3rd October 2021",
+            "time": "0000hrs IST"
         },
         {
             "title": "Round 1 Presentation",
             "content": "Sample filler text",
-            "date": "1st October 2021",
-            "time": "1500hrs IST"
+            "date": "5th October 2021",
+            "time": "1200hrs IST"
         },
         {
             "title": "Round 1 Results",
             "content": "Sample filler text",
-            "date": "1st October 2021",
-            "time": "1500hrs IST"
+            "date": "7th October 2021",
+            "time": "1200hrs IST"
         },
         {
             "title": "Round 2 Presentation",
             "content": "Sample filler text",
-            "date": "1st October 2021",
-            "time": "1500hrs IST"
+            "date": "7th October 2021",
+            "time": "1200hrs IST"
         },
         {
             "title": "Round 2 Results",
             "content": "Sample filler text",
-            "date": "1st October 2021",
-            "time": "1500hrs IST"
+            "date": "11th October 2021",
+            "time": "1200hrs IST"
         },
         {
             "title": "Felicitation",
             "content": "Sample filler text",
-            "date": "1st October 2021",
+            "date": "13th October 2021",
             "time": "1500hrs IST"
         }
     ],
@@ -85,24 +85,27 @@
             "list": [
                 {
                     "name": "Dr. Shailender Kumar",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/KGwsDh5/shailender-kumar.jpg",
+                    "sub": "University Hackathon Coordinator",
                     "social_url": ""
                 },
                 {
                     "name": "Dr. Girish Kumar",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/SfyLxK8/girish-kumar.jpg",
+                    "sub": "CEO DTU-IIF",
                     "social_url": "http://www.dtu.ac.in/Web/Departments/Mechanical/faculty/girishkumar.php"
                 },
                 {
                     "name": "Dr. Ravindra Singh",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/kXtNm7Q/ravindra-singh.jpg",
+                    "sub": "Dept of Design",
                     "social_url": "http://www.dtu.ac.in/Web/Departments/design/faculty/ravindrasingh.php"
+                },
+                {
+                    "name": "Mr. Partha Pratiim Das",
+                    "img_url": "https://i.ibb.co/3dSgNbY/partha-pratiim.jpg",
+                    "sub": "Dept of Design",
+                    "social_url": "https://www.linkedin.com/in/partha-p-d/"
                 }
             ]
         },
@@ -111,30 +114,26 @@
             "list": [
                 {
                     "name": "Aman Mahendroo",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/gWsFpDB/aman-mahendroo.jpg",
+                    "sub": "Machine Learning",
                     "social_url": "https://www.linkedin.com/in/amanmahendroo/"
                 },
                 {
                     "name": "Aaradhya Beri",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/hdRsQ4J/aaradhya-beri.jpg",
+                    "sub": "Full Stack",
                     "social_url": "https://www.linkedin.com/in/aaradhya-beri-83213a148/"
                 },
                 {
                     "name": "Anurag Hooda",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/xKZTkS6/anurag-hooda.jpg",
+                    "sub": "Entrepreneurship",
                     "social_url": "https://www.linkedin.com/in/anuraghooda/"
                 },
                 {
                     "name": "Pranav Bhatnagar",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/qdDhBzf/pranav-bhatnagar.jpg",
+                    "sub": "Machine Learning",
                     "social_url": "https://www.linkedin.com/in/pranavbhatnagar2000/"
                 }
             ]
@@ -145,50 +144,49 @@
                 {
                     "name": "Aditya Sharan",
                     "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "sub": "Accounts",
                     "social_url": "https://www.linkedin.com/in/aditya-sharan-171496176/"
                 },
                 {
                     "name": "Prashubh Atri",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/zXRG3pk/prashubh-atri.jpg",
+                    "sub": "Full Stack",
                     "social_url": "https://www.linkedin.com/in/prashubh-atri-051698188/"
                 },
                 {
                     "name": "Nilesh Aditya",
                     "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "sub": "Full Stack",
                     "social_url": "https://www.linkedin.com/in/nilesh-aditya/"
                 },
                 {
                     "name": "Pratyush Bhatt",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/QjV479p/pratyush-bhatt.jpg",
+                    "sub": "Hardware / Robotics",
                     "social_url": "https://www.linkedin.com/in/pratyush-bhatt-7a6b56208/"
                 },
                 {
                     "name": "Sampreet Bharali",
                     "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "sub": "Hardware / Robotics",
                     "social_url": "https://www.linkedin.com/in/sampreet-bharali-5b71a81a0/"
+                },
+                {
+                    "name": "Nishant Sharma",
+                    "img_url": "https://i.ibb.co/ctDy0hN/nishant-sharme.jpg",
+                    "sub": "Entrepreneurship",
+                    "social_url": "https://www.linkedin.com/in/nishant-sharma-a54683196/"
                 },
                 {
                     "name": "Samar Pratap Singh",
                     "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "sub": "Hardware / Robotics",
                     "social_url": "https://www.linkedin.com/in/samar-pratap-21a9461a1/"
                 },
                 {
                     "name": "Sai Keshari",
-                    "img_url": "",
-                    "img_alt": "",
-                    "sub": "Sample filler text",
+                    "img_url": "https://i.ibb.co/B627Vvg/sai-keshari.jpg",
+                    "sub": "Website",
                     "social_url": "https://www.linkedin.com/in/sai-keshari-2a3916190/"
                 }
             ]

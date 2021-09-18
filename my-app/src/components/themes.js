@@ -39,7 +39,7 @@ export default function Themes() {
                         </div>
                         <div class="flip-card-back">
                             <div style={{padding:'0.6em'}}>
-                                <h2>Problem Statement</h2>
+                                <h2>{Content.Themes[0].title}</h2>
                                 <p>{Content.Themes[0].text}</p> 
                             </div>
                         </div>
@@ -53,8 +53,8 @@ export default function Themes() {
                         </div>
                         <div class="flip-card-back">
                             <div style={{padding:'0.6em'}}>
-                                <h2>Problem Statement</h2>
-                                <p>{Content.Themes[0].text}</p> 
+                                <h2>{Content.Themes[1].title}</h2>
+                                <p>{Content.Themes[1].text}</p> 
                             </div> 
                         </div>
                     </div>
@@ -67,8 +67,8 @@ export default function Themes() {
                         </div>
                         <div class="flip-card-back">
                             <div style={{padding:'0.6em'}}>
-                                <h2>Problem Statement</h2>
-                                <p>{Content.Themes[0].text}</p> 
+                                <h2>{Content.Themes[2].title}</h2>
+                                <p>{Content.Themes[2].text}</p> 
                             </div>
                         </div>
                     </div>
@@ -82,8 +82,8 @@ export default function Themes() {
                         </div>
                         <div class="flip-card-back">
                             <div style={{padding:'0.6em'}}>
-                                <h2>Problem Statement</h2>
-                                <p>{Content.Themes[0].text}</p> 
+                                <h2>{Content.Themes[3].title}</h2>
+                                <p>{Content.Themes[3].text}</p> 
                             </div>
                         </div>
                     </div>

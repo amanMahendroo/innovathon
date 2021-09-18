@@ -23,12 +23,14 @@
     /* width: 21%; */
     height: fit-content;
     border-radius: 0.5em;
+    overflow: hidden;
 }
 
-.person-img img{
-    width:100%;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
+.person-img, .person-img img{
+    width: 220px;
+    min-height: 250px;
+    max-height: 250px; 
+    object-fit: cover;
 }
 
 .person-more-info{
@@ -52,4 +54,8 @@
     background: #2867B2;
     color: white;
     border-bottom-right-radius: 0.5em;
+}
+
+.person-name {
+    font-weight: bold;
 }

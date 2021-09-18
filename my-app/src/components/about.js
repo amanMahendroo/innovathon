@@ -29,11 +29,11 @@ export default function About() {
                     <FontAwesomeIcon icon={faUserPlus} class="aboutCardSvg1"/> <br/>
                     <span>22 <sup>nd</sup> September 2021</span>
                 </div>
-                <div class="aboutCard">
+                {/* <div class="aboutCard">
                     <span>Win cash prizes worth</span> <br/>
                     <FontAwesomeIcon icon={faRupeeSign} class="aboutCardSvg2"/> <br/>
                      <span>INR 68,000 </span>
-                </div>
+                </div> */}
                 <div class="aboutCard">
                     <span>Win cash prizes worth</span> <br/>
                     <FontAwesomeIcon icon={faRupeeSign} class="aboutCardSvg2"/> <br/>

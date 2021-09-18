@@ -57,7 +57,7 @@ export default function Org() {
                             {sub.list.map(person => (
                                 <div className="person-info">
                                     <div className="person-img">
-                                        {person.img_url === "" ? <img src={defaultImg} alt={person.img_alt} /> : <img src={person.img_url} alt={person.img_alt} />}
+                                        {person.img_url === "" ? <img src={defaultImg} alt={person.name} /> : <img src={person.img_url} alt={person.name} />}
                                         {/* <div className={classes.root}>
                                             <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" className={classes.large} />
                                         </div> */}
