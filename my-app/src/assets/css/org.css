@@ -1,0 +1,55 @@
+.orgCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* flex-basis: 10%; */
+}
+
+.orgHeading{
+    color: rgba(254, 103, 57, 1);
+    font-size: 3.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.person-info{
+    /* border: 5px solid red; */
+    background: white;
+    box-shadow: 0 15px 30px 0 rgb(214 93 32 / 25%);
+    text-align: center;
+    /* padding: 1em; */
+    margin: 0.3em 0.5em;
+    /* min-width: 160px; */
+    /* width: 21%; */
+    height: fit-content;
+    border-radius: 0.5em;
+}
+
+.person-img img{
+    width:100%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.person-more-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.person-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    font-size: 1em;
+    flex-basis: 20%;
+    
+}
+
+.person-social-icon{
+    padding: 0.7em;
+    background: #2867B2;
+    color: white;
+    border-bottom-right-radius: 0.5em;
+}

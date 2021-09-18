@@ -2,7 +2,7 @@ import Nav from "./components/nav"
 import Main from "./components/main"
 import About from "./components/about"
 import Themes from "./components/themes"
-import Timeline from "./components/timeline"
+import Schedule from "./components/schedule"
 import Org from "./components/org"
 import Faq from "./components/faq"
 import End from "./components/end"
@@ -17,7 +17,7 @@ function App() {
       <Main />
       <About /> 
       <Themes />
-      <Timeline />
+      <Schedule />
       <Faq />
       <Org />
       <End />
