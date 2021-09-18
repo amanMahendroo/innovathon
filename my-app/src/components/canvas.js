@@ -60,7 +60,7 @@ export default function Canvas() {
             }    
         }
         p5.rectMode(p5.CENTER)
-        // console.log(boxes)
+        // console.log(boxes)   
     }
 
     function draw(p5) {
