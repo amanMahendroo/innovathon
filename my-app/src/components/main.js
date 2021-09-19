@@ -32,11 +32,11 @@ export default function Main() {
         return ({days, hours, minutes, seconds})
     }
     
-    const [time, setTime] = useState(getTimeFromMs(new Date("2021-09-22T00:00:00") - new Date()))
+    const [time, setTime] = useState(getTimeFromMs(new Date("2021-09-29T23:59:59") - new Date()))
 
     useEffect(() => {
         setInterval(() => {
-            setTime(getTimeFromMs(new Date("2021-09-22T00:00:00") - new Date()))
+            setTime(getTimeFromMs(new Date("2021-09-29T23:59:59") - new Date()))
         }, 1000)
     }, [])
     
@@ -62,7 +62,7 @@ export default function Main() {
                 </div>
                 <div className="timer">
                     <h1>
-                        Registration Starts In :
+                        Registration open till :
                         </h1>
                         <div id="countdown">
                             <ul class="timeElemtsUl">
