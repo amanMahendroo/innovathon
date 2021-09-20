@@ -37,44 +37,38 @@
     ],
     "Timeline": [
         {
-            "title": "Registration",
-            "content": "Sample filler text",
+            "title": "Registration starts",
+            "content": "Starting here, students may register for the Hackathon via Devfolio",
             "date": "22nd September 2021",
             "time": "0000hrs IST"
         },
         {
-            "title": "Problem statements released",
-            "content": "Sample filler text",
-            "date": "3rd October 2021",
-            "time": "0000hrs IST"
-        },
-        {
-            "title": "Round 1 Presentation",
-            "content": "Sample filler text",
-            "date": "5th October 2021",
-            "time": "1200hrs IST"
+            "title": "Round 1 submission",
+            "content": "The final deadline for the participants to submit their ideas",
+            "date": "4th October 2021",
+            "time": "2359hrs IST"
         },
         {
             "title": "Round 1 Results",
-            "content": "Sample filler text",
+            "content": "Teams qualifying for Round 2 are announced",
             "date": "7th October 2021",
-            "time": "1200hrs IST"
+            "time": "0000hrs IST"
+        },
+        {
+            "title": "Round 2 Submission",
+            "content": "The deadline for finalists to submit their solutions",
+            "date": "11th October 2021",
+            "time": "2359hrs IST"
         },
         {
             "title": "Round 2 Presentation",
-            "content": "Sample filler text",
-            "date": "7th October 2021",
+            "content": "The finalists pitch their ideas for our judges to evaluate",
+            "date": "12th October 2021",
             "time": "1200hrs IST"
         },
         {
-            "title": "Round 2 Results",
-            "content": "Sample filler text",
-            "date": "11th October 2021",
-            "time": "1200hrs IST"
-        },
-        {
-            "title": "Felicitation",
-            "content": "Sample filler text",
+            "title": "Round 2 Results and Felicitation",
+            "content": "Winners of the hackathon are announced",
             "date": "13th October 2021",
             "time": "1500hrs IST"
         }
