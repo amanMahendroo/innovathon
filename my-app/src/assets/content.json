@@ -154,12 +154,6 @@
                     "social_url": "https://www.linkedin.com/in/prashubh-atri-051698188/"
                 },
                 {
-                    "name": "Nilesh Aditya",
-                    "img_url": "https://i.ibb.co/Ny3Br4b/nilesh-aditya.jpg",
-                    "sub": "Full Stack",
-                    "social_url": "https://www.linkedin.com/in/nilesh-aditya/"
-                },
-                {
                     "name": "Pratyush Bhatt",
                     "img_url": "https://i.ibb.co/QjV479p/pratyush-bhatt.jpg",
                     "sub": "Hardware / Robotics",
@@ -186,7 +180,7 @@
                 {
                     "name": "Sai Keshari",
                     "img_url": "https://i.ibb.co/B627Vvg/sai-keshari.jpg",
-                    "sub": "Website",
+                    "sub": "Full Stack",
                     "social_url": "https://www.linkedin.com/in/sai-keshari-2a3916190/"
                 }
             ]
