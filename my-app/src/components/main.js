@@ -5,6 +5,8 @@ import Logo from "../assets/logo_1x.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faUserFriends} from '@fortawesome/free-solid-svg-icons'
 import {faDiscord} from '@fortawesome/free-brands-svg-icons'
+import Content from '../assets/content.json'
+
 
 export default function Main() {
     // function format(a) {
@@ -45,6 +47,17 @@ export default function Main() {
     // Then we set the value in the --vh custom property to the root of the document
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://apply.devfolio.co/v2/sdk.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+          document.body.removeChild(script);
+        }
+    }, []);
+
     return (
         // <>
         // <h1>Hackatho</h1>
@@ -76,13 +89,26 @@ export default function Main() {
                 </div>
             </div>
             <div class="mainBtns">
-                <button>
+            <div 
+                class="apply-button" 
+                data-hackathon-slug="innovathon-dtu" 
+                data-button-theme="light"
+                style={{
+                    height:'44px',
+                    width:'40%'
+                }}
+            ></div>
+                {/* <button>
                     <FontAwesomeIcon icon={faUserFriends} class="registerBtn"/>
                     Register Now
-                </button>
-                <button>
-                    <FontAwesomeIcon icon={faDiscord} class="registerBtn"/>
-                    Join Discord
+                </button> */}
+                <button onClick={(e) => {
+                    window.open(Content.Discord, '_blank')
+                    }}>
+                    <div class="discordBtn">
+                        <FontAwesomeIcon icon={faDiscord} class="registerBtn"/>
+                        <span>Join Discord</span>
+                    </div>
                 </button>
             </div>
         </div>

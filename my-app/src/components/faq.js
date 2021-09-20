@@ -88,7 +88,8 @@ export default function Faq() {
         <div class="themes section">
             <h1 style={{
                 fontSize:'3.2em',
-                marginBottom:'0.3em'
+                marginBottom:'0.3em',
+                fontWeight:'600'
             }}>
                 Frequently Asked Questions
             </h1>
@@ -96,7 +97,9 @@ export default function Faq() {
                 <div class="faqDiv">
                     <Accordion expanded={expanded === c.key} onChange={handleChange(c.key)}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls={`${c.key}bh-content`} id={`${c.key}bh-header`}>
-                            <strong>{c.question}</strong>
+                            <span style={{
+                              fontWeight:'500'
+                            }}>{c.question}</span>
                         </AccordionSummary>
                         <AccordionDetails><Typography>{c.answer}</Typography></AccordionDetails>
                     </Accordion>

@@ -181,7 +181,7 @@ export default function Schedule() {
                     </Paper>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem>
+                {/* <TimelineItem>
                 <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
                         {Content.Timeline[5].date} <br/>
@@ -202,12 +202,12 @@ export default function Schedule() {
                         <Typography>{Content.Timeline[5].content}</Typography>
                     </Paper>
                     </TimelineContent>
-                </TimelineItem>
+                </TimelineItem> */}
                 <TimelineItem>
                 <TimelineOppositeContent className={classes.TimelineOppositeContent}>
                     <Typography color="textSecondary">
-                        {Content.Timeline[6].date} <br/>
-                        {Content.Timeline[6].time} <br/>
+                        {Content.Timeline[5].date} <br/>
+                        {Content.Timeline[5].time} <br/>
                     </Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
@@ -218,9 +218,9 @@ export default function Schedule() {
                     <TimelineContent className={classes.TimelineContent}>
                     <Paper elevation={3} className={classes.paper}>
                         <Typography variant="h6" component="h1">
-                        {Content.Timeline[6].title}
+                        {Content.Timeline[5].title}
                         </Typography>
-                        <Typography>{Content.Timeline[6].content}</Typography>
+                        <Typography>{Content.Timeline[5].content}</Typography>
                     </Paper>
                     </TimelineContent>
                 </TimelineItem>

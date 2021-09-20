@@ -44,8 +44,6 @@
   @media all and (max-width: 768px) {
 
     
-
-    
     .timeElem {
       font-size: 0.5rem;
       padding: .75rem;
@@ -67,19 +65,24 @@
   .mainBtns{
       display: flex;
       justify-content: space-evenly;
+      flex-wrap: wrap;
   }
 
-.mainBtns button{
-    height: 3rem;
-    border-radius: 0.4em;
+
+iframe {
+  width: 40% !important;
+}
+ 
+.mainBtns > button {
+    height: 2.7rem;
+    border-radius: 4px;
     width: 40%;
-    background-color: #e85325;
+    background-color: #3770ff;
     color: #fff;
     border: none;
     padding: .5rem 1rem;
     display: flex;
     align-items: center;
-    border-radius: .5rem;
     cursor: pointer;
     justify-content: center;
     box-shadow: 0 0 20px 0 rgb(255 107 0 / 40%);
@@ -88,7 +91,13 @@
 
 .registerBtn{
     width: 1.5em;
-    margin-right: 2em;
+    margin-right: 0em;
+}
+
+.discordBtn{
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
 }
 
 @media all and (max-width: 625px) {
@@ -98,7 +107,20 @@
     }
 
     .mainBtns button{
-        height: 4rem;
+      margin: 1em;
+        /* height: 4rem; */
+        width: 80%;
+    }
+
+    iframe {
+      width: 80% !important;
+      margin: 1em;
+    }
+
+    .discordBtn{
+      display: flex;
+      justify-content: space-between;
+      width: 65%;
     }
 
 }

@@ -51,7 +51,9 @@ export default function Org() {
                 {Content.People.map(sub => (
                     <div className="sub">
                         <h2 style={{
-                            marginTop:'2em'
+                            marginTop:'2em',
+                            fontSize:'1.7em',
+                            fontWeight:'500'
                         }}>{sub.name}</h2>
                         <div class="orgCards">
                             {sub.list.map(person => (
@@ -88,7 +90,10 @@ export default function Org() {
                                             <div className="person-sub">{person.sub}</div>
                                         </div>
                                         <div class="person-social">
-                                            <FontAwesomeIcon class="person-social-icon" icon={faLinkedinIn} />
+                                            <a style={{
+                                                display:'flex',
+                                                width:'100%'
+                                            }} href={person.social_url} target="_blank"><FontAwesomeIcon class="person-social-icon" icon={faLinkedinIn} /></a>
                                         </div>
                                     </div>
                                     {/* Add social url and icon using react-icons */}
@@ -100,7 +105,8 @@ export default function Org() {
             </div>
             <h2 style={{
                 marginBottom:'1em',
-                marginTop:'2em'
+                marginTop:'2em',
+                fontWeight:'400'
             }}>Contact us at : <a target="_blank" href="mailto:innovathon.dtu@gmail.com">innovathon.dtu@gmail.com</a></h2>
         </div>
 

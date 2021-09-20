@@ -46,6 +46,12 @@
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
+.flip-card-front-comm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
 
 .flip-card-front-1 {
 	background-color: #d4e09b;
@@ -74,4 +80,5 @@
 {
 	font-size: 2em;
 	margin: 0.5em;
+	font-weight: 600;
 }

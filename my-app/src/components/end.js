@@ -5,12 +5,14 @@ export default function End() {
 
     return (
         <div className="section end">
-            <h2>
+            <h3 style={{
+                fontWeight:'400'
+            }}>
                 &copy;
                 2021
-                Innovathon
+                Innovathon DTU
                 All Right Reserved
-            </h2>
+            </h3>
         </div>
     );
 }
