@@ -92,7 +92,8 @@ export default function Org() {
                                         <div class="person-social">
                                             <a style={{
                                                 display:'flex',
-                                                width:'100%'
+                                                width:'100%',
+                                                justifyContent:'end'
                                             }} href={person.social_url} target="_blank"><FontAwesomeIcon class="person-social-icon" icon={faLinkedinIn} /></a>
                                         </div>
                                     </div>
