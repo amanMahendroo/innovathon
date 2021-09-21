@@ -2,6 +2,7 @@
     "Facebook": "https://www.facebook.com/Innovathon-DTU-110594991363621",
     "Discord": "https://discord.gg/nHjyb5fmqw",
     "Instagram": "https://www.instagram.com/innovathon.dtu/",
+    "Devfolio": "https://innovathon-dtu.devfolio.co/",
     "About": {
         "text": "Innovathon’21 is DTU’s first official Hackathon spanning multiple engineering domains. The hackathon aims to invoke free thinking, innovation, and teamwork as participants rack their brains to come up with novel ideas and impactful solutions to showcase their innovation and engineering skills. Innovate, think, learn, implement while tackling some real-life problems. The 2021 edition of Innovathon will be conducted in online mode. Participate and win exciting prizes!"
     },
@@ -11,7 +12,7 @@
             "title": "Full-stack Development",
             "img_url": "",
             "img_alt": "full-stack",
-            "text": "Test your expertise in creating user-friendly interfaces and coming up with intriguing solutions for challenging real life problems. Innovathon’21 will provide you hands-on experience to explore your potential in the field of Full stack development. Now is the chance to build an effective solution using all possible languages and frameworks with added business logic and user mindset."
+            "text": "Test your expertise in creating user-friendly interfaces and coming up with intriguing solutions for challenging real life problems. Innovathon’21 will provide you hands-on experience to explore your potential in the field of Full stack development. Now is the chance to build an effective solution, web or mobile app, using all possible languages and frameworks with added business logic and user mindset."
         },
         {
             "key": "t-2",

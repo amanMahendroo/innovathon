@@ -11,7 +11,7 @@ export default function End() {
                 &copy;
                 2021
                 Innovathon DTU
-                All Right Reserved
+                All Rights Reserved
             </h3>
         </div>
     );

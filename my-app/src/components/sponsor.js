@@ -20,7 +20,7 @@ function Sponsor() {
                     <img src={tezosImg}/>
                     <img src={celoImg}/>
                     <img src={polygonImg}/>
-                    {/* <img src={filecoinImg}/> */}
+                    <img src={filecoinImg}/>
                 </div>
             </div>
         </div>
