@@ -40,9 +40,10 @@ export default function About() {
                      <span>INR 68,000 </span>
                 </div>
                 <div class="aboutCard">
-                    <span>Win amazing swags</span> <br/> 
-
-                    <FontAwesomeIcon icon={faGift} class="aboutCardSvg3"/> 
+                    <span>Win amazing swags and</span> 
+                    <span>Sponsor Prizes</span><br/> 
+                    <FontAwesomeIcon icon={faGift} class="aboutCardSvg3"/> <br/>
+                    <span> Upto 1 lakh</span>
                 </div>
             </div>
         </div>
