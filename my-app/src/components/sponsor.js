@@ -12,15 +12,15 @@ function Sponsor() {
             <h1 class="sponsorHead">Devfolio Sponsors</h1>
             <div class="sponsorDiv">
                 <h2>Gold Sponsor</h2>
-                <img class="devfolio-img" src={devfolioImg}/>
+                <a target="_blank" href="https://devfolio.co/"><img class="devfolio-img" src={devfolioImg}/></a>
             </div>
             <div class="sponsorDiv">
                 <h2>Silver Sponsor</h2>
                 <div class="silverSpon">
-                    <img src={tezosImg}/>
-                    <img src={celoImg}/>
-                    <img src={polygonImg}/>
-                    <img src={filecoinImg}/>
+                    <a target="_blank" href="https://tezos.com/"><img src={tezosImg}/></a>
+                    <a target="_blank" href="https://celo.org/"><img src={celoImg}/></a>
+                    <a target="_blank" href="https://polygon.technology/"><img src={polygonImg}/></a>
+                    <a target="_blank" href="https://filecoin.io/"><img src={filecoinImg}/></a>
                 </div>
             </div>
         </div>

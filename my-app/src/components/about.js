@@ -19,7 +19,7 @@ export default function About() {
         //     </div>
         // </div>
         <div class="about">
-            <h1 class="aboutHeading">About Innovathon'21'</h1>
+            <h1 class="aboutHeading">About Innovathon'21</h1>
             <div class="aboutText">
                 {Content.About.text}
             </div>
