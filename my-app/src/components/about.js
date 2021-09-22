@@ -2,7 +2,7 @@ import Content from '../assets/content.json'
 import '../assets/css/about.css'
 import {faUserPlus} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faRupeeSign} from '@fortawesome/free-solid-svg-icons'
+import {faRupeeSign, faGift} from '@fortawesome/free-solid-svg-icons'
 
 export default function About() {
     return (
@@ -27,7 +27,7 @@ export default function About() {
                 <div class="aboutCard">
                     <span>Registration Starts on</span> <br/>
                     <FontAwesomeIcon icon={faUserPlus} class="aboutCardSvg1"/> <br/>
-                    <span>22 <sup>nd</sup> September 2021</span>
+                    <span>25 <sup>th</sup> September 2021</span>
                 </div>
                 {/* <div class="aboutCard">
                     <span>Win cash prizes worth</span> <br/>
@@ -38,6 +38,11 @@ export default function About() {
                     <span>Win cash prizes worth</span> <br/>
                     <FontAwesomeIcon icon={faRupeeSign} class="aboutCardSvg2"/> <br/>
                      <span>INR 68,000 </span>
+                </div>
+                <div class="aboutCard">
+                    <span>Win amazing swags</span> <br/> 
+
+                    <FontAwesomeIcon icon={faGift} class="aboutCardSvg3"/> 
                 </div>
             </div>
         </div>

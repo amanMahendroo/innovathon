@@ -55,6 +55,10 @@
     width: 2.5em;
 }
 
+.aboutCardSvg3 {
+    width: 5.5em;
+}
+
 /* .aboutCardSvg{
     font-size: 3rem;
     padding: 0.5rem;
@@ -62,4 +66,11 @@
 
 .aboutCard:hover {
     box-shadow: 0 15px 30px 0 rgb(214 93 32 / 25%);
+}
+
+.silverSponA{
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
