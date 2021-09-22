@@ -28,24 +28,7 @@ export default function Org() {
     const classes = useStyles();
 
     return (
-        // <div className="org section">
-        //     {Content.People.map(sub => (
-        //         <div className="sub">
-        //             <div className="sub-head">{sub.name}</div>
-        //             {sub.list.map(person => (
-        //                 <div className="person-info">
-        //                     <div className="person-img">
-        //                         <img src={person.img_url} alt={person.img_alt} />
-        //                     </div>
-        //                     <div className="person-name">{person.name}</div>
-        //                     <div className="person-sub">{person.sub}</div>
-        //                     {/* Add social url and icon using react-icons */}
-        //                 </div>
-        //             ))}
-        //         </div>
-        //     ))}
-        // </div>
-        <div class="orgSection">
+         <div class="orgSection">
             <h1 class="orgHeading">TEAM</h1>
             <div>
                 {Content.People.map(sub => (
@@ -57,7 +40,7 @@ export default function Org() {
                         }}>{sub.name}</h2>
                         <div class="orgCards">
                             {sub.list.map(person => (
-                                sub.name === "Organizers" ? <div className="person-info">
+                                (sub.name === "Organizers" || sub.name == "Patrons") ? <div className="person-info">
                                 <div className="person-img">
                                     {person.img_url === "" ? <img src={defaultImg} alt={person.name} /> : <img src={person.img_url} alt={person.name} />}
                                     {/* <div className={classes.root}>

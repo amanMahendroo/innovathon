@@ -26,7 +26,7 @@
             "title": "Machine Learning",
             "img_url": "",
             "img_alt": "machine-learning",
-            "text": "One of the hottest fields in innovation today is Machine Learning. At Innovathon DTU, we present to you a wonderful opportunity to put your machine learning skills to the test, through a set of well-crafted problems, which demand extreme innovation and implementation skills. Are you up to the challenge?"
+            "text": "One of the hottest fields in innovation today is Machine Learning. At Innovathon DTU, we present to you a wonderful opportunity to put your machine learning skills to test, through a set of well-crafted problems, which demand extreme innovation and implementation skills. Are you up to the challenge?"
         },
         {
             "key": "t-4",
@@ -40,7 +40,7 @@
         {
             "title": "Registration starts",
             "content": "Starting here, students may register for the Hackathon via Devfolio",
-            "date": "22nd September 2021",
+            "date": "25th September 2021",
             "time": "0000hrs IST"
         },
         {
@@ -75,6 +75,29 @@
         }
     ],
     "People": [
+        {
+            "name": "Patrons",
+            "list": [
+                {
+                    "name": "Prof. Yogesh Singh",
+                    "img_url": "https://i.ibb.co/ZMZc0d5/yogesh-singh.jpg",
+                    "sub": "Chief Patron",
+                    "social_url": ""
+                },
+                {
+                    "name": "Prof. Ashutosh Trivedi",
+                    "img_url": "https://i.ibb.co/pZHNFXs/ashutosh-trivedi.jpg",
+                    "sub": "Patron",
+                    "social_url": ""
+                },
+                {
+                    "name": "Prof. Madhusudhan Singh",
+                    "img_url": "https://i.ibb.co/6X9B6X6/madhusudan-singh.jpg",
+                    "sub": "Patron",
+                    "social_url": ""
+                }
+            ]
+        },
         {
             "name": "Organizers",
             "list": [

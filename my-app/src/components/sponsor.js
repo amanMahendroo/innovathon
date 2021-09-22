@@ -9,7 +9,7 @@ import filecoinImg from '../assets/filecoinImg.png'
 function Sponsor() {
     return (
         <div class="section">
-            <h1 class="sponsorHead">Sponsors</h1>
+            <h1 class="sponsorHead">Devfolio Sponsors</h1>
             <div class="sponsorDiv">
                 <h2>Gold Sponsor</h2>
                 <img class="devfolio-img" src={devfolioImg}/>
