@@ -9,7 +9,7 @@ export default function End() {
         <div className="section end">
             <a href="https://docs.google.com/document/d/1qO6x5PfJRv3tU2QCpdNbLLql-BdD12LCAPTrdN9wtFg/edit?usp=sharing" style={{
                 textDecoration:'none'
-            }}>
+            }} target="_blank">
                 <h3 style={{
                     fontWeight:'400'
                 }}>
