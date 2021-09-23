@@ -12,7 +12,7 @@ function Sponsor() {
             <h1 class="sponsorHead">Devfolio Sponsors</h1>
             <div class="sponsorDiv">
                 <h2>Gold Sponsor</h2>
-                <a target="_blank" href="https://innovathon-dtu.devfolio.co/"><img class="devfolio-img" src={devfolioImg}/></a>
+                <a target="_blank" href="https://devfolio.co/"><img class="devfolio-img" src={devfolioImg}/></a>
             </div>
             <div class="sponsorDiv">
                 <h2>Silver Sponsors by Devfolio</h2>
