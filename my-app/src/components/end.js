@@ -13,7 +13,7 @@ export default function End() {
                 <h3 style={{
                     fontWeight:'400'
                 }}>
-                    Terms and Conditions &nbsp;
+                    Hackathon Guidelines &nbsp;
                     <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </h3>
             </a>
