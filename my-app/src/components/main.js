@@ -122,7 +122,7 @@ export default function Main() {
                     }}>
                     <div class="discordBtn">
                         <FontAwesomeIcon icon={faDiscord} class="registerBtn"/>
-                        <span>Join Discord</span>
+                        <span>Discord</span>
                     </div>
                 </button>
             </div>

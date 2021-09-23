@@ -69,14 +69,14 @@
   }
 
 
-iframe {
+/* iframe {
   width: 40% !important;
-}
+} */
  
 .mainBtns > button {
     height: 2.7rem;
     border-radius: 4px;
-    width: 40%;
+    width: 312px;
     background-color: #3770ff;
     color: #fff;
     border: none;
@@ -128,10 +128,10 @@ iframe {
         width: 80%;
     }
 
-    iframe {
+    /* iframe {
       width: 80% !important;
       margin: 1em;
-    }
+    } */
 
     .discordBtn{
       display: flex;
