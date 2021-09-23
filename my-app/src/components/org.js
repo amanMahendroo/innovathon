@@ -74,7 +74,7 @@ export default function Org() {
                                         </div>
                                         <div class="person-social">
                                             <a style={{
-                                                display:'absolute',
+                                                position:'absolute',
                                                 width: '40px',
                                                 bottom: '0',
                                                 right: '0',

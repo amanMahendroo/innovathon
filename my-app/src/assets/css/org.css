@@ -70,10 +70,8 @@
 }
 
 .person-social{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
     font-size: 1em;
     flex-basis: 20%;
     
