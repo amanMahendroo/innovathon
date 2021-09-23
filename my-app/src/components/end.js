@@ -7,7 +7,7 @@ export default function End() {
 
     return (
         <div className="section end">
-            <a href="https://docs.google.com/document/d/1qO6x5PfJRv3tU2QCpdNbLLql-BdD12LCAPTrdN9wtFg/edit?usp=sharing" style={{
+            <a href="https://drive.google.com/file/d/18FutsAqwTMiIMQyOizcWXi3wFwdaSSyj/view?usp=sharing" style={{
                 textDecoration:'none'
             }} target="_blank">
                 <h3 style={{
