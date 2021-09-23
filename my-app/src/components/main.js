@@ -34,7 +34,7 @@ export default function Main() {
         return ({days, hours, minutes, seconds})
     }
 
-    const d1=new Date(("2021-09-23T12:28:00+05:30")) 
+    const d1=new Date(("2021-09-25T00:00:00+05:30")) 
     const d2=new Date(("2021-10-04T23:59:00+05:30")) 
     const d3=new Date(("2021-10-07T00:00:00+05:30")) 
     const d4=new Date(("2021-10-11T23:59:00+05:30")) 
@@ -126,6 +126,13 @@ export default function Main() {
                     </div>
                 </button>
             </div>
+            {
+                timeDat === "Registration starts in" ? <></>:<div>
+                <a href="https://drive.google.com/file/d/1_1VThfj2yz73DFZaP8wQxshOG0Y9LtMd/view?usp=sharing" target="_blank" style={{
+                    textDecoration:'none'
+                }}><button class="probStat">Problem Statements</button></a>
+            </div>
+            }
         </div>
     )
 }

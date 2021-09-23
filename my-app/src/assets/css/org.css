@@ -38,7 +38,7 @@
     height: fit-content;
     border-radius: 0.5em;
     overflow: hidden;
-    min-width: 218px;
+    max-width: 218px;
 }
 
 @media only screen and (max-width: 500px)
