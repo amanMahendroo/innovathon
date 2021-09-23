@@ -70,7 +70,7 @@
 }
 
 .person-social{
-    position: absolute;
+    position: relative;
     bottom: 0;
     font-size: 1em;
     flex-basis: 20%;
