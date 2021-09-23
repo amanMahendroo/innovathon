@@ -33,13 +33,28 @@ export default function Main() {
         let seconds = t;
         return ({days, hours, minutes, seconds})
     }
+
+    const d1=new Date(("2021-09-23T12:28:00+05:30")) 
+    const d2=new Date(("2021-10-04T23:59:00+05:30")) 
+    const d3=new Date(("2021-10-07T00:00:00+05:30")) 
+    const d4=new Date(("2021-10-11T23:59:00+05:30")) 
+    const d5=new Date(("2021-10-12T12:00:00+05:30")) 
+    const d6=new Date(("2021-10-13T15:00:00+05:30")) 
+
+    const currDate=new Date()
     
-    const [time, setTime] = useState(getTimeFromMs(new Date("2021-09-25T00:00:00") - new Date()))
+    const [time, setTime] = useState(getTimeFromMs(d1 - new Date() <= 0 ? d2 - new Date() <= 0 ? d3 - new Date() <= 0 ? d4 - new Date() <= 0 ? d5 - new Date() <= 0 ? d6 - new Date() : d5 - new Date()  : d4 - new Date(): d3 - new Date() : d2 - new Date() : d1 - new Date() ))
+
+    const [timeDat, setTimeDat] = useState(d1 - new Date() <= 0 ? d2 - new Date() <= 0 ? d3 - new Date() <= 0 ? d4 - new Date() <= 0 ? d5 - new Date() <= 0 ? d6 - new Date() <= 0 ? "Hackathon has ended" : "Results in" : "Round 2 Presentation in"  : "Round 2 submission ends in" : "Round 1 results in" : "Round 1 submission ends in" : "Registration starts in" )
+
+
+
 
     useEffect(() => {
         setInterval(() => {
-            setTime(getTimeFromMs(new Date("2021-09-25T00:00:00") - new Date()))
-        }, 1000)
+            setTime(getTimeFromMs(d1 - new Date() <= 0 ? d2 - new Date() <= 0 ? d3 - new Date() <= 0 ? d4 - new Date() <= 0 ? d5 - new Date() <= 0 ? d6 - new Date() : d5 - new Date()  : d4 - new Date(): d3 - new Date() : d2 - new Date() : d1 - new Date() ))
+            setTimeDat(d1 - new Date() <= 0 ? d2 - new Date() <= 0 ? d3 - new Date() <= 0 ? d4 - new Date() <= 0 ? d5 - new Date() <= 0 ? d6 - new Date() <= 0 ? "Hackathon has ended" : "Results in" : "Round 2 Presentation in"  : "Round 2 submission ends in" : "Round 1 results in" : "Round 1 submission ends in" : "Registration starts in" )
+        }, 10)
     }, [])
     
     // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
@@ -75,7 +90,7 @@ export default function Main() {
                 </div>
                 <div className="timer">
                     <h1>
-                        Registration starts in :
+                        {timeDat}
                         </h1>
                         <div id="countdown">
                             <ul class="timeElemtsUl">
