@@ -71,10 +71,8 @@
 }
 
 .person-social{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: flex-end;
+    position: relative;
+    bottom: 0;
     font-size: 1em;
     flex-basis: 20%;
     
