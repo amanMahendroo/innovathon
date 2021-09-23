@@ -125,6 +125,13 @@ export default function Main() {
                         <span>Discord</span>
                     </div>
                 </button>
+                <button style={{
+                    background:'#fa6b38'
+                }} onClick={(e) => {
+                    window.open('https://docs.google.com/document/d/1heT8-ljY2XGd97QVi9M6x_7Av3gKwgaoz9Jot9O0xw4/edit', '_blank')
+                    }}>
+                        <span>Instructions to Apply</span>
+                </button>
             </div>
             {
                 timeDat === "Registration starts in" ? <></>:<div>
