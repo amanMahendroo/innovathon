@@ -121,14 +121,14 @@ export default function Main() {
                     window.open(Content.Discord, '_blank')
                     }}>
                     <div class="discordBtn">
-                        <FontAwesomeIcon icon={faDiscord} class="registerBtn"/>
+                        <FontAwesomeIcon icon={faDiscord} class="registerBtn"/> &nbsp;
                         <span>Discord</span>
                     </div>
                 </button>
-                <button style={{
+                <button class="InstrucBtn" style={{
                     background:'#fa6b38'
                 }} onClick={(e) => {
-                    window.open('https://docs.google.com/document/d/1heT8-ljY2XGd97QVi9M6x_7Av3gKwgaoz9Jot9O0xw4/edit', '_blank')
+                    window.open('https://drive.google.com/file/d/1IG-m4HG9DbiuvIiqumUuPXZKLbfyT93W/view?usp=sharing', '_blank')
                     }}>
                         <span>Instructions to Apply</span>
                 </button>
