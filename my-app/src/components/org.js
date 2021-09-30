@@ -34,12 +34,13 @@ export default function Org() {
                 {Content.People.map(sub => (
                     <div className="sub">
                         <h2 style={{
+                            marginTop:'2em',
                             fontSize:'1.7em',
                             fontWeight:'500'
-                        }}></h2>
+                        }}>{sub.name}</h2>
                         <div class="orgCards">
                             {sub.list.map(person => (
-                                (sub.name === "" || sub.name == "Patrons") ? <div className="person-info">
+                                (sub.name === "Organizers" || sub.name == "Patrons") ? <div className="person-info">
                                 <div className="person-img">
                                     {person.img_url === "" ? <img src={defaultImg} alt={person.name} /> : <img src={person.img_url} alt={person.name} />}
                                     {/* <div className={classes.root}>

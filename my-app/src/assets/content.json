@@ -76,7 +76,59 @@
     ],
     "People": [
         {
+            "name": "Patrons",
+            "list": [
+                {
+                    "name": "Prof. Yogesh Singh",
+                    "img_url": "https://i.ibb.co/ZMZc0d5/yogesh-singh.jpg",
+                    "sub": "Chief Patron",
+                    "social_url": ""
+                },
+                {
+                    "name": "Prof. Ashutosh Trivedi",
+                    "img_url": "https://i.ibb.co/pZHNFXs/ashutosh-trivedi.jpg",
+                    "sub": "Patron",
+                    "social_url": ""
+                },
+                {
+                    "name": "Prof. Madhusudhan Singh",
+                    "img_url": "https://i.ibb.co/6X9B6X6/madhusudan-singh.jpg",
+                    "sub": "Patron",
+                    "social_url": ""
+                }
+            ]
+        },
+        {
             "name": "Organizers",
+            "list": [
+                {
+                    "name": "Dr. Shailender Kumar",
+                    "img_url": "https://i.ibb.co/KGwsDh5/shailender-kumar.jpg",
+                    "sub": "Univ Hackathon Coord",
+                    "social_url": ""
+                },
+                {
+                    "name": "Dr. Girish Kumar",
+                    "img_url": "https://i.ibb.co/SfyLxK8/girish-kumar.jpg",
+                    "sub": "CEO DTU-IIF",
+                    "social_url": "http://www.dtu.ac.in/Web/Departments/Mechanical/faculty/girishkumar.php"
+                },
+                {
+                    "name": "Dr. Ravindra Singh",
+                    "img_url": "https://i.ibb.co/kXtNm7Q/ravindra-singh.jpg",
+                    "sub": "Dept of Design",
+                    "social_url": "http://www.dtu.ac.in/Web/Departments/design/faculty/ravindrasingh.php"
+                },
+                {
+                    "name": "Mr. Partha Pratim Das",
+                    "img_url": "https://i.ibb.co/3dSgNbY/partha-pratiim.jpg",
+                    "sub": "Dept of Design",
+                    "social_url": "https://www.linkedin.com/in/partha-p-d/"
+                }
+            ]
+        },
+        {
+            "name": "Coordinators",
             "list": [
                 {
                     "name": "Aman Mahendroo",
@@ -101,7 +153,12 @@
                     "img_url": "https://i.ibb.co/qdDhBzf/pranav-bhatnagar.jpg",
                     "sub": "Machine Learning",
                     "social_url": "https://www.linkedin.com/in/pranavbhatnagar2000/"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Volunteers",
+            "list": [
                 {
                     "name": "Prashubh Atri",
                     "img_url": "https://i.ibb.co/zXRG3pk/prashubh-atri.jpg",
