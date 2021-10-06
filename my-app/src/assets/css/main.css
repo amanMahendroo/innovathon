@@ -124,6 +124,23 @@
   width: 45%;
 }
 
+.resultBtn{
+  margin: auto;
+    border-radius: 4px;
+    /* width: 40%; */
+    background-color: #fa6b38;
+    color: #fff;
+    border: none;
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    box-shadow: 0 0 20px 0 rgb(255 107 0 / 40%);
+    font-size: 1.4em;
+  width: 300px;
+}
+
 @media all and (max-width: 625px) {
 
     .registerBtn{

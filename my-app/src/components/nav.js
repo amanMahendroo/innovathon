@@ -170,7 +170,7 @@ export default function Header() {
     return (
       <>
               <div className="icon">
-                  <SocialIcon className="navSocialIcons" target="_blank" url={Content.Facebook} />
+                  <SocialIcon className="navSocialIcons" target="_blank" url={Content.Whatsapp} />
               </div>
               <div className="icon">
                   <SocialIcon className="navSocialIcons" target="_blank" url={Content.Discord} />

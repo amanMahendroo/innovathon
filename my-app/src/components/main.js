@@ -103,8 +103,14 @@ export default function Main() {
                     
                 </div>
             </div>
+            {
+                timeDat === "Round 2 submission ends in" ? 
+            <a href="https://drive.google.com/file/d/1rRQ1zTyfM6OjshbMs4QhJP9i0_gIoBAl/view?usp=sharing" target="_blank" style={{
+                    textDecoration:'none'
+                }}><button class="resultBtn">Round 1 Results</button></a> : <></>
+            }
             <div class="mainBtns">
-            <div 
+            {/* <div 
                 class="apply-button" 
                 data-hackathon-slug="innovathon-dtu" 
                 data-button-theme="light"
@@ -112,7 +118,7 @@ export default function Main() {
                     height:'44px',
                     width:'40%'
                 }}
-            ></div>
+            ></div> */}
                 {/* <button>
                     <FontAwesomeIcon icon={faUserFriends} class="registerBtn"/>
                     Register Now
@@ -132,14 +138,17 @@ export default function Main() {
                     }}>
                         <span>Instructions to Apply</span>
                 </button>
+                <a href="https://drive.google.com/file/d/1_1VThfj2yz73DFZaP8wQxshOG0Y9LtMd/view?usp=sharing" target="_blank" style={{
+                    textDecoration:'none'
+                }}><button class="probStat">Problem Statements</button></a>
             </div>
-            {
+            {/* {
                 timeDat === "Registration starts in" ? <></>:<div>
                 <a href="https://drive.google.com/file/d/1_1VThfj2yz73DFZaP8wQxshOG0Y9LtMd/view?usp=sharing" target="_blank" style={{
                     textDecoration:'none'
                 }}><button class="probStat">Problem Statements</button></a>
             </div>
-            }
+            } */}
         </div>
     )
 }
