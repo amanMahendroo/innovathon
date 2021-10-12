@@ -39,7 +39,7 @@ export default function Main() {
     const d3=new Date(("2021-10-07T00:00:00+05:30")) 
     const d4=new Date(("2021-10-11T23:59:00+05:30")) 
     const d5=new Date(("2021-10-12T12:00:00+05:30")) 
-    const d6=new Date(("2021-10-13T15:00:00+05:30")) 
+    const d6=new Date(("2021-10-12T15:00:00+05:30")) 
 
     const currDate=new Date()
     
@@ -52,7 +52,7 @@ export default function Main() {
 
     useEffect(() => {
         setInterval(() => {
-            setTime(getTimeFromMs(d1 - new Date() <= 0 ? d2 - new Date() <= 0 ? d3 - new Date() <= 0 ? d4 - new Date() <= 0 ? d5 - new Date() <= 0 ? d6 - new Date() : d5 - new Date()  : d4 - new Date(): d3 - new Date() : d2 - new Date() : d1 - new Date() ))
+            setTime(getTimeFromMs(d1 - new Date() <= 0 ? d2 - new Date() <= 0 ? d3 - new Date() <= 0 ? d4 - new Date() <= 0 ? d5 - new Date() <= 0 ? d6 - d6 : d5 - new Date()  : d4 - new Date(): d3 - new Date() : d2 - new Date() : d1 - new Date() ))
             setTimeDat(d1 - new Date() <= 0 ? d2 - new Date() <= 0 ? d3 - new Date() <= 0 ? d4 - new Date() <= 0 ? d5 - new Date() <= 0 ? d6 - new Date() <= 0 ? "Hackathon has ended" : "Results in" : "Round 2 Presentation in"  : "Round 2 submission ends in" : "Round 1 results in" : "Round 1 submission ends in" : "Registration starts in" )
         }, 10)
     }, [])
@@ -104,10 +104,10 @@ export default function Main() {
                 </div>
             </div>
             {
-                timeDat === "Round 2 submission ends in" ? 
-            <a href="https://drive.google.com/file/d/1rRQ1zTyfM6OjshbMs4QhJP9i0_gIoBAl/view?usp=sharing" target="_blank" style={{
+                timeDat === "Hackathon has ended" ? 
+            <a href="https://drive.google.com/file/d/1qbBswDnpTpIqFLXewmRkJDs2eto5RuWv/view" target="_blank" style={{
                     textDecoration:'none'
-                }}><button class="resultBtn">Round 1 Results</button></a> : <></>
+                }}><button class="resultBtn">Final Results</button></a> : <></>
             }
             <div class="mainBtns">
             {/* <div 
